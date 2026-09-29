@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "分类改革政策版本库",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "政策研究员",
+    "规则发布人",
+    "业务办理员"
+  ],
+  "states": [
+    "起草",
+    "审查",
+    "发布",
+    "解释",
+    "废止"
+  ],
+  "invariants": [
+    "条款版本",
+    "适用范围",
+    "引用图谱",
+    "紧急解释"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-016-A",
+      "actor": "政策研究员",
+      "state": "起草"
+    },
+    {
+      "case_id": "09301-016-B",
+      "actor": "业务办理员",
+      "state": "审查"
+    }
+  ],
+  "tags": [
+    "policy-versioning",
+    "rule-graph"
+  ]
+}
